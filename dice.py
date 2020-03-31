@@ -3,12 +3,11 @@ import time
 min = 1
 max = 6
 
-roll_again = "yes"
-
 def dicee():
+    roll_again = "yes"
     diceq = input("\nDo you want one or two dice??1/2 ")    
     if diceq == "1":
-        while roll_again== "yes" or roll_again == "y" or roll_again == "Y":
+        while roll_again == "yes" or roll_again == "y" or roll_again == "Y":
             print("Rolling dice...")
             time.sleep(0.3)
             print("The value is... ")
@@ -27,6 +26,7 @@ def dicee():
     else:
         print("I did not understand that. Try again by pressing return")
         roll = input()
+
 while 1:
     print("\n\tWELCOME TO DICE SIMULATOR!!")
     print("\n\tWHERE YOU GET RANDOM NUMBERS FROM 1-6!!")

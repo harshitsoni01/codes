@@ -2,8 +2,8 @@ print("GUESS THE NUMBER!!!!")
 import random
 
 randnum = random.randint(1,1000)
-guess = -1
-guesstaken = 0 
+guess = -2
+guesstaken = 0
 
 while guesstaken <= 10:
     guess = input("Take a guess!!\n")
