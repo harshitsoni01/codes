@@ -27,8 +27,6 @@ def dicee():
     else:
         print("I did not understand that. Try again by pressing return")
 
-while 1:
-    print("\n\tWELCOME TO DICE SIMULATOR!!")
-    print("\n\tWHERE YOU GET RANDOM NUMBERS FROM 1-6!!")
-    dicee()
-    sys.exit()
+print("\n\tWELCOME TO DICE SIMULATOR!!")
+print("\n\tWHERE YOU GET RANDOM NUMBERS FROM 1-6!!")
+dicee()
