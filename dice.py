@@ -1,5 +1,6 @@
 import random
 import time
+import sys
 min = 1
 max = 6
 
@@ -25,9 +26,9 @@ def dicee():
             roll_again = input("Roll the dice again??y/n")
     else:
         print("I did not understand that. Try again by pressing return")
-        roll = input()
 
 while 1:
     print("\n\tWELCOME TO DICE SIMULATOR!!")
     print("\n\tWHERE YOU GET RANDOM NUMBERS FROM 1-6!!")
     dicee()
+    sys.exit()
