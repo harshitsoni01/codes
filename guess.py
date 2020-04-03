@@ -1,5 +1,6 @@
 print("GUESS THE NUMBER!!!!")
 import random
+import time 
 
 randnum = random.randint(1,1000)
 guess = -2
@@ -21,6 +22,7 @@ while guesstaken <= 10:
 if guess == randnum:
     print("YAYY!! YOu guessed the correct number")
     guesstaken = str(guesstaken)
+    time.sleep(0.5)
     print("You took "+guesstaken+" tries")    
 elif guess != randnum:
     randnum = str(randnum)
