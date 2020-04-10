@@ -24,7 +24,8 @@ if guess == randnum:
     guesstaken = str(guesstaken)
     time.sleep(0.5)
     print("You took "+guesstaken+" tries")
-    time.sleep(0.5)    
+    time.sleep(0.5)
+    guesstaken = int(guesstaken)    
     if guesstaken == 1 or guesstaken == 2:
         print("You are a SUPERHUMAN!")
     elif guesstaken == 3 or guesstaken == 4:
@@ -33,7 +34,7 @@ if guess == randnum:
         print("You are an expert.")
     elif guesstaken == 7 or guesstaken == 8:
         print("You are good.")
-    elif guesstaken == 9 or guesstaken == 10:
+    elif guesstaken == 9 or guesstaken == 10 or guesstaken == 11:
         print("You can do better.")
         
 elif guess != randnum:
