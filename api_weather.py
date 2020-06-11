@@ -1,6 +1,6 @@
 # Python program to find current weather details of any city using openweathermap api
 import requests, json 
-api_key = "b03aae2dd0d2c016e48d6fc50ec429f2"
+api_key = "your api key"
 base_url = "http://api.openweathermap.org/data/2.5/weather?"
 city_name = input("Enter city name : ") 
 
