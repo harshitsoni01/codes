@@ -1,5 +1,7 @@
 # Python Basic Projects
 
+![Alt text](https://img.shields.io/badge/python-v3.8-g)
+
 ## Using different Libraies
 
 ## **Api_weather:**
@@ -8,11 +10,15 @@
 
 [Get api_key](https://openweathermap.org/api)
 
+[Get requests](https://pypi.org/project/requests/)
+
+[get json](https://pypi.org/project/jsonlib/)
+
 ## Dice
 
 ### This program rolls the dice(s) (max two) as per the inserted number of dices
 
-[pip install random](https://pypi.org/project/random2/)
+[Get random](https://pypi.org/project/random2/)
 
 ## Guess
 
