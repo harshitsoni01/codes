@@ -29,17 +29,5 @@ if x["cod"] != "404":
                     str(current_humidiy) +
         "\n description = " +
                     str(weather_description)) 
-else: 
-    print(" City Not Found ") 
-#Arduino program to print temperature on lcd.
-#from pyfirmata import Arduino, util
-import serial
-import time
-
-s = serial.Serial("COM4", 9600) #port is 11 (for COM12, and baud rate is 9600
-time.sleep(2)    #wait for the Serial to initialize
-s.write('Ready...')
-while True:
-    str1 = current_temperature
-    
-    s.write(str1)
+else:
+    print(" City Not Found ")
