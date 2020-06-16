@@ -33,3 +33,11 @@
 ## kinter
 
 ### This program inserts buttons and images in tkinter
+
+## whatsapp
+
+### This program sends multiple messages to a user/group using python and selenium
+
+[Get selenium](https://pypi.org/project/selenium/)
+
+[Download chromedriver](<https://chromedriver.chromium.org/>)
