@@ -36,7 +36,9 @@
 
 ## whatsapp
 
-### This program sends multiple messages to a user/group using python and selenium
+### This program sends multiple messages to a user/group using python, selenium and chrome
+
+*If you use firefox you don't need to download chromedriver*
 
 [Get selenium](https://pypi.org/project/selenium/)
 
