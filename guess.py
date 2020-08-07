@@ -1,4 +1,5 @@
 print("GUESS THE NUMBER!!!!!")
+print("From 1 to 1000!")
 import random
 import time 
 
